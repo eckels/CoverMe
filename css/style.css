@@ -90,6 +90,10 @@ header {
   left: 58%;
 }
 
+.mobile {
+  display: none;
+}
+
 @media (max-width: 1300px) {
   .left {
     margin-left: 10%;
@@ -194,5 +198,11 @@ header {
     height: auto;
     margin-left: 10%;
     margin-right: 10%;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
   }
 }
